@@ -80,7 +80,7 @@ def generate_source_json(release):
 
         app_entry = {
             "name": app_name,
-            "bundleIdentifier": f"tv.twitch.twitchandroid.{identifier_suffix}",
+            "bundleIdentifier": f"tv.twitch",
             "developer": "gunnerkidBT",
             "subtitle": subtitle,
             "localizedDescription": release_notes,
