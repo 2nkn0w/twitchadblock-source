@@ -1,0 +1,43 @@
+{
+    "name": "TwitchAdBlock Source",
+    "identifier": "com.twitchadblock.autoupdate.source",
+    "description": "Automatically updated TwitchAdBlock source from GitHub.",
+    "tintColor": "9146FF",
+    "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/2e/1e/192e1ed8-7939-14eb-17e3-037a18e02548/Placeholder.mill/200x200bb-75.webp",
+    "apps": [
+        {
+            "name": "TwitchAdBlock (noplugins)",
+            "bundleIdentifier": "tv.twitch.twitchandroid.noplugins",
+            "developer": "gunnerkidBT",
+            "subtitle": "Variant: noplugins",
+            "localizedDescription": "**TwitchMods v0.1.13** \u2014 for Twitch iOS **30.7**\r\n\r\n### New in v0.1.13\r\n- **Casting & AirPlay now work with ad-blocking on.** Previously, having the ad-block proxy enabled could make casting to a Chromecast crash after a few seconds, or make AirPlay to an Apple TV show \"offline.\" The mod now automatically steps aside while you're casting/AirPlaying, so the stream plays on the TV \u2014 and your phone goes right back to blocking ads the moment you stop. (The stream *on the TV* still shows ads \u2014 the TV fetches the video itself, so that can't be blocked \u2014 but your phone stays ad-free.)\r\n\r\n### Everything else (v0.1.12)\r\n- Blocks ads (live + VOD pre-rolls, feed banners, sponsor spots, the \"Go Ad-Free\" Turbo button)\r\n- Keep Live Feed Playing \u00b7 7TV/BTTV/FFZ chat emotes + Reload \u00b7 settings backup/restore \u00b7 Diagnostics \u00b7 launch screen \u00b7 hide Stories\r\n\r\n### Downloads\r\n- **`tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa`** \u2014 full app.\r\n- **`tv.twitch-30.7-TwitchAdBlock-0.1.13-noplugins.ipa`** \u2014 app extensions removed so a free Apple ID only uses 1 App ID slot when sideloading.\r\n\r\nInstall with **AltStore / SideStore** (drag in the IPA) or **TrollStore** (tap +, pick the IPA).\r\n\r\nFull plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkidBT/TwitchAdBlock/blob/master/CHANGELOG.md)\r\n",
+            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/2e/1e/192e1ed8-7939-14eb-17e3-037a18e02548/Placeholder.mill/200x200bb-75.webp",
+            "versions": [
+                {
+                    "version": "30.7-0.1.13",
+                    "date": "2026-08-14T02:22:46Z",
+                    "localizedDescription": "**TwitchMods v0.1.13** \u2014 for Twitch iOS **30.7**\r\n\r\n### New in v0.1.13\r\n- **Casting & AirPlay now work with ad-blocking on.** Previously, having the ad-block proxy enabled could make casting to a Chromecast crash after a few seconds, or make AirPlay to an Apple TV show \"offline.\" The mod now automatically steps aside while you're casting/AirPlaying, so the stream plays on the TV \u2014 and your phone goes right back to blocking ads the moment you stop. (The stream *on the TV* still shows ads \u2014 the TV fetches the video itself, so that can't be blocked \u2014 but your phone stays ad-free.)\r\n\r\n### Everything else (v0.1.12)\r\n- Blocks ads (live + VOD pre-rolls, feed banners, sponsor spots, the \"Go Ad-Free\" Turbo button)\r\n- Keep Live Feed Playing \u00b7 7TV/BTTV/FFZ chat emotes + Reload \u00b7 settings backup/restore \u00b7 Diagnostics \u00b7 launch screen \u00b7 hide Stories\r\n\r\n### Downloads\r\n- **`tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa`** \u2014 full app.\r\n- **`tv.twitch-30.7-TwitchAdBlock-0.1.13-noplugins.ipa`** \u2014 app extensions removed so a free Apple ID only uses 1 App ID slot when sideloading.\r\n\r\nInstall with **AltStore / SideStore** (drag in the IPA) or **TrollStore** (tap +, pick the IPA).\r\n\r\nFull plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkidBT/TwitchAdBlock/blob/master/CHANGELOG.md)\r\n",
+                    "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.7-0.1.13/tv.twitch-30.7-TwitchAdBlock-0.1.13-noplugins.ipa",
+                    "size": 143381478
+                }
+            ]
+        },
+        {
+            "name": "TwitchAdBlock",
+            "bundleIdentifier": "tv.twitch.twitchandroid.standard",
+            "developer": "gunnerkidBT",
+            "subtitle": "Adblock + Extra features",
+            "localizedDescription": "**TwitchMods v0.1.13** \u2014 for Twitch iOS **30.7**\r\n\r\n### New in v0.1.13\r\n- **Casting & AirPlay now work with ad-blocking on.** Previously, having the ad-block proxy enabled could make casting to a Chromecast crash after a few seconds, or make AirPlay to an Apple TV show \"offline.\" The mod now automatically steps aside while you're casting/AirPlaying, so the stream plays on the TV \u2014 and your phone goes right back to blocking ads the moment you stop. (The stream *on the TV* still shows ads \u2014 the TV fetches the video itself, so that can't be blocked \u2014 but your phone stays ad-free.)\r\n\r\n### Everything else (v0.1.12)\r\n- Blocks ads (live + VOD pre-rolls, feed banners, sponsor spots, the \"Go Ad-Free\" Turbo button)\r\n- Keep Live Feed Playing \u00b7 7TV/BTTV/FFZ chat emotes + Reload \u00b7 settings backup/restore \u00b7 Diagnostics \u00b7 launch screen \u00b7 hide Stories\r\n\r\n### Downloads\r\n- **`tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa`** \u2014 full app.\r\n- **`tv.twitch-30.7-TwitchAdBlock-0.1.13-noplugins.ipa`** \u2014 app extensions removed so a free Apple ID only uses 1 App ID slot when sideloading.\r\n\r\nInstall with **AltStore / SideStore** (drag in the IPA) or **TrollStore** (tap +, pick the IPA).\r\n\r\nFull plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkidBT/TwitchAdBlock/blob/master/CHANGELOG.md)\r\n",
+            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/2e/1e/192e1ed8-7939-14eb-17e3-037a18e02548/Placeholder.mill/200x200bb-75.webp",
+            "versions": [
+                {
+                    "version": "30.7-0.1.13",
+                    "date": "2026-08-14T02:22:46Z",
+                    "localizedDescription": "**TwitchMods v0.1.13** \u2014 for Twitch iOS **30.7**\r\n\r\n### New in v0.1.13\r\n- **Casting & AirPlay now work with ad-blocking on.** Previously, having the ad-block proxy enabled could make casting to a Chromecast crash after a few seconds, or make AirPlay to an Apple TV show \"offline.\" The mod now automatically steps aside while you're casting/AirPlaying, so the stream plays on the TV \u2014 and your phone goes right back to blocking ads the moment you stop. (The stream *on the TV* still shows ads \u2014 the TV fetches the video itself, so that can't be blocked \u2014 but your phone stays ad-free.)\r\n\r\n### Everything else (v0.1.12)\r\n- Blocks ads (live + VOD pre-rolls, feed banners, sponsor spots, the \"Go Ad-Free\" Turbo button)\r\n- Keep Live Feed Playing \u00b7 7TV/BTTV/FFZ chat emotes + Reload \u00b7 settings backup/restore \u00b7 Diagnostics \u00b7 launch screen \u00b7 hide Stories\r\n\r\n### Downloads\r\n- **`tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa`** \u2014 full app.\r\n- **`tv.twitch-30.7-TwitchAdBlock-0.1.13-noplugins.ipa`** \u2014 app extensions removed so a free Apple ID only uses 1 App ID slot when sideloading.\r\n\r\nInstall with **AltStore / SideStore** (drag in the IPA) or **TrollStore** (tap +, pick the IPA).\r\n\r\nFull plain-language changelog: [`CHANGELOG.md`](https://github.com/gunnerkidBT/TwitchAdBlock/blob/master/CHANGELOG.md)\r\n",
+                    "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v30.7-0.1.13/tv.twitch-30.7-TwitchAdBlock-0.1.13.ipa",
+                    "size": 152372292
+                }
+            ]
+        }
+    ]
+}
