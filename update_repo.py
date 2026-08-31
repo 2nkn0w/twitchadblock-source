@@ -2,6 +2,7 @@ import os
 import json
 import requests
 import re
+from datetime import datetime, timezone
 
 # CONFIGURATION
 TARGET_REPO = "gunnerkidBT/TwitchAdBlock"
@@ -24,18 +25,11 @@ def get_latest_release():
     return response.json()
 
 def clean_variant_name(filename, base_common_prefix):
-    # Remove .ipa extension
     name_without_ext = filename[:-4]
-    
-    # Remove common prefix to isolate the variant difference
     variant = name_without_ext.replace(base_common_prefix, "").strip("-")
-    
     if not variant:
         return "Standard"
-        
-    # Replace dashes with spaces
-    variant = variant.replace("-", " ")
-    return variant
+    return variant.replace("-", " ")
 
 def generate_source_json(release):
     if not release:
@@ -46,41 +40,34 @@ def generate_source_json(release):
     release_notes = release.get("body", "No release notes provided.")
     published_date = release.get("published_at", "")
     
-    # Filter assets ending with .ipa
     ipa_assets = [asset for asset in release.get("assets", []) if asset["name"].endswith(".ipa")]
-    
     if not ipa_assets:
         print("No .ipa files found in the latest release.")
         return
 
-    # Find exact common prefix among all ipas to clean up variant names
     filenames = [asset["name"] for asset in ipa_assets]
     common_prefix = os.path.commonprefix(filenames)
     common_prefix = re.sub(r'[-_]+$', '', common_prefix)
 
     apps_list = []
 
-    for index, asset in enumerate(ipa_assets):
+    for asset in ipa_assets:
         filename = asset["name"]
         ipa_url = asset["browser_download_url"]
         ipa_size = asset["size"]
         
-        # Extract variant description
         variant_desc = clean_variant_name(filename, common_prefix)
         
-        # Build clean name and identifiers
         if variant_desc.lower() == "standard" or not variant_desc:
             app_name = "TwitchAdBlock"
             subtitle = "Adblock + Extra features"
-            identifier_suffix = "standard"
         else:
             app_name = f"TwitchAdBlock ({variant_desc})"
             subtitle = f"Variant: {variant_desc}"
-            identifier_suffix = variant_desc.lower().replace(" ", "-")
 
         app_entry = {
             "name": app_name,
-            "bundleIdentifier": f"tv.twitch",
+            "bundleIdentifier": "tv.twitch",
             "developer": "gunnerkidBT",
             "subtitle": subtitle,
             "localizedDescription": release_notes,
@@ -97,11 +84,14 @@ def generate_source_json(release):
         }
         apps_list.append(app_entry)
 
+    # Obtenemos la fecha y hora de actualización en UTC
+    updated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+
     # LiveContainer source structure JSON format
     repo_data = {
         "name": "TwitchAdBlock Source",
         "identifier": "com.twitchadblock.autoupdate.source",
-        "description": "Automatically updated TwitchAdBlock source from GitHub.",
+        "description": f"Automatically updated TwitchAdBlock source from GitHub. Last update: {updated_at}",
         "tintColor": "9146FF",
         "iconURL": APP_ICON_URL,
         "apps": apps_list
