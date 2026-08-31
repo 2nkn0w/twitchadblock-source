@@ -84,21 +84,22 @@ def generate_source_json(release):
         }
         apps_list.append(app_entry)
 
-    # Obtenemos la fecha y hora de actualización en UTC
-    updated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+    # Formateo de fecha exactamente como en IPALibrary (ej: Aug 26, 2026 - 11:15:30 UTC)
+    full_timestamp = datetime.now(timezone.utc).strftime('%b %d, %Y - %H:%M:%S UTC')
 
-    # LiveContainer source structure JSON format
+    # Estructura del JSON idéntica a IPALibrary
     repo_data = {
         "name": "TwitchAdBlock Source",
         "identifier": "com.twitchadblock.autoupdate.source",
-        "description": f"Automatically updated TwitchAdBlock source from GitHub. Last update: {updated_at}",
-        "tintColor": "9146FF",
+        "subtitle": f"Last Update: {full_timestamp}",
+        "description": f"Automatically updated TwitchAdBlock source from GitHub. Updated at {full_timestamp}.",
         "iconURL": APP_ICON_URL,
+        "website": f"https://github.com/{TARGET_REPO}",
         "apps": apps_list
     }
 
     with open(JSON_FILENAME, "w", encoding="utf-8") as f:
-        json.dump(repo_data, f, indent=4)
+        json.dump(repo_data, f, indent=4, ensure_ascii=False)
     print(f"File {JSON_FILENAME} successfully updated with {len(apps_list)} variants for version {version}.")
 
 if __name__ == "__main__":
