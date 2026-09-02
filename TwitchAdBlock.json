@@ -1,8 +1,8 @@
 {
     "name": "TwitchAdBlock Source",
     "identifier": "com.twitchadblock.autoupdate.source",
-    "subtitle": "Last Update: Sep 01, 2026 - 13:19:08 UTC",
-    "description": "Automatically updated TwitchAdBlock source from GitHub. Updated at Sep 01, 2026 - 13:19:08 UTC.",
+    "subtitle": "Last Update: Sep 02, 2026 - 11:02:45 UTC",
+    "description": "Automatically updated TwitchAdBlock source from GitHub. Updated at Sep 02, 2026 - 11:02:45 UTC.",
     "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/2e/1e/192e1ed8-7939-14eb-17e3-037a18e02548/Placeholder.mill/200x200bb-75.webp",
     "website": "https://github.com/gunnerkidBT/TwitchAdBlock",
     "apps": [
