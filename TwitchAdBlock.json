@@ -1,8 +1,8 @@
 {
     "name": "TwitchAdBlock Source",
     "identifier": "com.twitchadblock.autoupdate.source",
-    "subtitle": "Last Update: Nov 12, 2026 - 16:41:41 UTC",
-    "description": "Automatically updated TwitchAdBlock source from GitHub. Updated at Nov 12, 2026 - 16:41:41 UTC.",
+    "subtitle": "Last Update: Nov 13, 2026 - 15:59:51 UTC",
+    "description": "Automatically updated TwitchAdBlock source from GitHub. Updated at Nov 13, 2026 - 15:59:51 UTC.",
     "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/2e/1e/192e1ed8-7939-14eb-17e3-037a18e02548/Placeholder.mill/200x200bb-75.webp",
     "website": "https://github.com/gunnerkidBT/TwitchAdBlock",
     "apps": [
@@ -11,15 +11,15 @@
             "bundleIdentifier": "tv.twitch",
             "developer": "gunnerkidBT",
             "subtitle": "Variant: noplugins",
-            "localizedDescription": "TwitchMods 0.1.18 for Twitch 31.9\n\n**Auto-claim bonus channel points.** When you watch a stream long enough, a bonus points chest appears in chat. Now the mod claims it for you automatically — no tapping needed. Turn it on in Settings → Chat → Auto-Claim Bonus Points. It's off by default.\n\n**Works with Twitch 31.9.** Verified that all features still work on the latest Twitch update.\n\n**Fixed:** setting your launch screen to \"Following\" made streams unclickable until you switched tabs and came back. It also showed the wrong theme (dark mode) until you moved away. Both are fixed.",
+            "localizedDescription": "**Fixed ad blocking.** Ads were getting through even with the proxy on. Fixed the issue — ads should be blocked again.",
             "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/2e/1e/192e1ed8-7939-14eb-17e3-037a18e02548/Placeholder.mill/200x200bb-75.webp",
             "versions": [
                 {
-                    "version": "31.9-0.1.18",
-                    "date": "2026-11-08T17:36:54Z",
-                    "localizedDescription": "TwitchMods 0.1.18 for Twitch 31.9\n\n**Auto-claim bonus channel points.** When you watch a stream long enough, a bonus points chest appears in chat. Now the mod claims it for you automatically — no tapping needed. Turn it on in Settings → Chat → Auto-Claim Bonus Points. It's off by default.\n\n**Works with Twitch 31.9.** Verified that all features still work on the latest Twitch update.\n\n**Fixed:** setting your launch screen to \"Following\" made streams unclickable until you switched tabs and came back. It also showed the wrong theme (dark mode) until you moved away. Both are fixed.",
-                    "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.9-0.1.18/tv.twitch-31.9-TwitchAdBlock-0.1.18-noplugins.ipa",
-                    "size": 187393926
+                    "version": "31.9-0.1.19",
+                    "date": "2026-11-13T01:04:27Z",
+                    "localizedDescription": "**Fixed ad blocking.** Ads were getting through even with the proxy on. Fixed the issue — ads should be blocked again.",
+                    "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.9-0.1.19/tv.twitch-31.9-TwitchAdBlock-0.1.19-noplugins.ipa",
+                    "size": 184560365
                 }
             ]
         },
@@ -28,15 +28,15 @@
             "bundleIdentifier": "tv.twitch",
             "developer": "gunnerkidBT",
             "subtitle": "Adblock + Extra features",
-            "localizedDescription": "TwitchMods 0.1.18 for Twitch 31.9\n\n**Auto-claim bonus channel points.** When you watch a stream long enough, a bonus points chest appears in chat. Now the mod claims it for you automatically — no tapping needed. Turn it on in Settings → Chat → Auto-Claim Bonus Points. It's off by default.\n\n**Works with Twitch 31.9.** Verified that all features still work on the latest Twitch update.\n\n**Fixed:** setting your launch screen to \"Following\" made streams unclickable until you switched tabs and came back. It also showed the wrong theme (dark mode) until you moved away. Both are fixed.",
+            "localizedDescription": "**Fixed ad blocking.** Ads were getting through even with the proxy on. Fixed the issue — ads should be blocked again.",
             "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/2e/1e/192e1ed8-7939-14eb-17e3-037a18e02548/Placeholder.mill/200x200bb-75.webp",
             "versions": [
                 {
-                    "version": "31.9-0.1.18",
-                    "date": "2026-11-08T17:36:54Z",
-                    "localizedDescription": "TwitchMods 0.1.18 for Twitch 31.9\n\n**Auto-claim bonus channel points.** When you watch a stream long enough, a bonus points chest appears in chat. Now the mod claims it for you automatically — no tapping needed. Turn it on in Settings → Chat → Auto-Claim Bonus Points. It's off by default.\n\n**Works with Twitch 31.9.** Verified that all features still work on the latest Twitch update.\n\n**Fixed:** setting your launch screen to \"Following\" made streams unclickable until you switched tabs and came back. It also showed the wrong theme (dark mode) until you moved away. Both are fixed.",
-                    "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.9-0.1.18/tv.twitch-31.9-TwitchAdBlock-0.1.18.ipa",
-                    "size": 199752793
+                    "version": "31.9-0.1.19",
+                    "date": "2026-11-13T01:04:27Z",
+                    "localizedDescription": "**Fixed ad blocking.** Ads were getting through even with the proxy on. Fixed the issue — ads should be blocked again.",
+                    "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.9-0.1.19/tv.twitch-31.9-TwitchAdBlock-0.1.19.ipa",
+                    "size": 196556351
                 }
             ]
         }
