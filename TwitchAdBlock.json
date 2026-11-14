@@ -1,25 +1,25 @@
 {
     "name": "TwitchAdBlock Source",
     "identifier": "com.twitchadblock.autoupdate.source",
-    "subtitle": "Last Update: Nov 13, 2026 - 15:59:51 UTC",
-    "description": "Automatically updated TwitchAdBlock source from GitHub. Updated at Nov 13, 2026 - 15:59:51 UTC.",
+    "subtitle": "Last Update: Nov 14, 2026 - 14:53:32 UTC",
+    "description": "Automatically updated TwitchAdBlock source from GitHub. Updated at Nov 14, 2026 - 14:53:32 UTC.",
     "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/2e/1e/192e1ed8-7939-14eb-17e3-037a18e02548/Placeholder.mill/200x200bb-75.webp",
     "website": "https://github.com/gunnerkidBT/TwitchAdBlock",
     "apps": [
         {
-            "name": "TwitchAdBlock (noplugins)",
+            "name": "TwitchAdBlock (no plugins)",
             "bundleIdentifier": "tv.twitch",
             "developer": "gunnerkidBT",
-            "subtitle": "Variant: noplugins",
-            "localizedDescription": "**Fixed ad blocking.** Ads were getting through even with the proxy on. Fixed the issue — ads should be blocked again.",
+            "subtitle": "Variant: no plugins",
+            "localizedDescription": "**Fixed ad blocking (for real this time).** Twitch changed how they serve ads on their backend. The previous fix didn't fully cover it — this one does. Ad blocking should now work reliably again.\n\n### Downloads\n\n| File | Description |\n|------|-------------|\n| `tv.twitch-31.9-TwitchAdBlock-0.1.20.ipa` | Main IPA (AltStore / SideStore / TrollStore) |\n| `tv.twitch-31.9-TwitchAdBlock-0.1.20-no-plugins.ipa` | IPA without app extensions (saves 2 sideload slots) |\n| `com.level3tjg.twitchadblock_0.1.20_iphoneos-arm.deb` | Rootful jailbreak (iphoneos-arm) |\n| `com.level3tjg.twitchadblock_0.1.20_iphoneos-arm64.deb` | Rootless jailbreak (iphoneos-arm64) |\n\n### AltStore / SideStore / Feather source\nAdd this URL to get automatic update notifications:\n```\nhttps://raw.githubusercontent.com/gunnerkidBT/TwitchAdBlock/master/apps.json\n```",
             "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/2e/1e/192e1ed8-7939-14eb-17e3-037a18e02548/Placeholder.mill/200x200bb-75.webp",
             "versions": [
                 {
-                    "version": "31.9-0.1.19",
-                    "date": "2026-11-13T01:04:27Z",
-                    "localizedDescription": "**Fixed ad blocking.** Ads were getting through even with the proxy on. Fixed the issue — ads should be blocked again.",
-                    "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.9-0.1.19/tv.twitch-31.9-TwitchAdBlock-0.1.19-noplugins.ipa",
-                    "size": 184560365
+                    "version": "31.9-0.1.20",
+                    "date": "2026-11-14T14:44:18Z",
+                    "localizedDescription": "**Fixed ad blocking (for real this time).** Twitch changed how they serve ads on their backend. The previous fix didn't fully cover it — this one does. Ad blocking should now work reliably again.\n\n### Downloads\n\n| File | Description |\n|------|-------------|\n| `tv.twitch-31.9-TwitchAdBlock-0.1.20.ipa` | Main IPA (AltStore / SideStore / TrollStore) |\n| `tv.twitch-31.9-TwitchAdBlock-0.1.20-no-plugins.ipa` | IPA without app extensions (saves 2 sideload slots) |\n| `com.level3tjg.twitchadblock_0.1.20_iphoneos-arm.deb` | Rootful jailbreak (iphoneos-arm) |\n| `com.level3tjg.twitchadblock_0.1.20_iphoneos-arm64.deb` | Rootless jailbreak (iphoneos-arm64) |\n\n### AltStore / SideStore / Feather source\nAdd this URL to get automatic update notifications:\n```\nhttps://raw.githubusercontent.com/gunnerkidBT/TwitchAdBlock/master/apps.json\n```",
+                    "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.9-0.1.20/tv.twitch-31.9-TwitchAdBlock-0.1.20-no-plugins.ipa",
+                    "size": 184561278
                 }
             ]
         },
@@ -28,15 +28,15 @@
             "bundleIdentifier": "tv.twitch",
             "developer": "gunnerkidBT",
             "subtitle": "Adblock + Extra features",
-            "localizedDescription": "**Fixed ad blocking.** Ads were getting through even with the proxy on. Fixed the issue — ads should be blocked again.",
+            "localizedDescription": "**Fixed ad blocking (for real this time).** Twitch changed how they serve ads on their backend. The previous fix didn't fully cover it — this one does. Ad blocking should now work reliably again.\n\n### Downloads\n\n| File | Description |\n|------|-------------|\n| `tv.twitch-31.9-TwitchAdBlock-0.1.20.ipa` | Main IPA (AltStore / SideStore / TrollStore) |\n| `tv.twitch-31.9-TwitchAdBlock-0.1.20-no-plugins.ipa` | IPA without app extensions (saves 2 sideload slots) |\n| `com.level3tjg.twitchadblock_0.1.20_iphoneos-arm.deb` | Rootful jailbreak (iphoneos-arm) |\n| `com.level3tjg.twitchadblock_0.1.20_iphoneos-arm64.deb` | Rootless jailbreak (iphoneos-arm64) |\n\n### AltStore / SideStore / Feather source\nAdd this URL to get automatic update notifications:\n```\nhttps://raw.githubusercontent.com/gunnerkidBT/TwitchAdBlock/master/apps.json\n```",
             "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/19/2e/1e/192e1ed8-7939-14eb-17e3-037a18e02548/Placeholder.mill/200x200bb-75.webp",
             "versions": [
                 {
-                    "version": "31.9-0.1.19",
-                    "date": "2026-11-13T01:04:27Z",
-                    "localizedDescription": "**Fixed ad blocking.** Ads were getting through even with the proxy on. Fixed the issue — ads should be blocked again.",
-                    "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.9-0.1.19/tv.twitch-31.9-TwitchAdBlock-0.1.19.ipa",
-                    "size": 196556351
+                    "version": "31.9-0.1.20",
+                    "date": "2026-11-14T14:44:18Z",
+                    "localizedDescription": "**Fixed ad blocking (for real this time).** Twitch changed how they serve ads on their backend. The previous fix didn't fully cover it — this one does. Ad blocking should now work reliably again.\n\n### Downloads\n\n| File | Description |\n|------|-------------|\n| `tv.twitch-31.9-TwitchAdBlock-0.1.20.ipa` | Main IPA (AltStore / SideStore / TrollStore) |\n| `tv.twitch-31.9-TwitchAdBlock-0.1.20-no-plugins.ipa` | IPA without app extensions (saves 2 sideload slots) |\n| `com.level3tjg.twitchadblock_0.1.20_iphoneos-arm.deb` | Rootful jailbreak (iphoneos-arm) |\n| `com.level3tjg.twitchadblock_0.1.20_iphoneos-arm64.deb` | Rootless jailbreak (iphoneos-arm64) |\n\n### AltStore / SideStore / Feather source\nAdd this URL to get automatic update notifications:\n```\nhttps://raw.githubusercontent.com/gunnerkidBT/TwitchAdBlock/master/apps.json\n```",
+                    "downloadURL": "https://github.com/gunnerkidBT/TwitchAdBlock/releases/download/v31.9-0.1.20/tv.twitch-31.9-TwitchAdBlock-0.1.20.ipa",
+                    "size": 196557264
                 }
             ]
         }
